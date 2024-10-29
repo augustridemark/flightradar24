@@ -1,4 +1,6 @@
 # Instructions
+The only dependency is having php installed and being able to run it as CLI to start a server
+
 1. Add a TOKEN to the app.env file that will be used for authentication of the API
 2. Navigate to the project root and start a basic php server
 ```
