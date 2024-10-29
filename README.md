@@ -25,19 +25,19 @@ curl -X POST \
   -H 'Authorization: Basic <TOKEN>' \
   -H 'Content-Type: application/json' \
   -d '{
-    "passport_id":"AA909090",
-    "departure_airport":"ARL",
-    "destination_airport":"LON"
+    "passport_id":"AA9090999",
+    "departure_airport":"ARN",
+    "destination_airport":"AKL"
 }'
 ```
 Response success
 ```
 {
   "ticket_id": "1f98990da6c8da961aec5fb13d89c0c6",
-  "passport_id": "AA909090",
-  "departure_airport": "ARL",
-  "destination_airport": "LON",
-  "departure_time": "2024-10-28 22:12",
+  "passport_id": "AA9090999",
+  "departure_airport": "ARN",
+  "destination_airport": "AKL",
+  "departure_time": "2024-10-28 21:12",
   "seat": "B2"
 }
 ```
@@ -89,10 +89,10 @@ Response success
 ```
 {
   "ticket_id": "59d1c65668a0011b2c8bb044625fedb6",
-  "passport_id": "AA909090",
-  "departure_airport": "ARL",
-  "destination_airport": "LON",
-  "departure_time": "2024-10-28 22:29",
+  "passport_id": "AA9090999",
+  "departure_airport": "ARN",
+  "destination_airport": "AKL",
+  "departure_time": "2024-10-28 21:29",
   "seat": "D20"
 }
 ```
